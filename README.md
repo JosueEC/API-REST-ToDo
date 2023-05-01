@@ -9,6 +9,7 @@ agregando las dependencias:
 2.-Creamos nuestra division de carpetas en src
 * Controllers
 * Models
+* Repositorys
 
 3.-Creamos nuestros controllers usando la etiqueta
 @RestController
@@ -19,3 +20,10 @@ las etiquetas:
 * @PostMapping(value = "" )
 * @DeleteMapping(value = "" )
 * @PutMapping(value = "" ) / @PatchMapping(value = "" )
+
+5.-Creamos las entidades de nuestro proyecto, esto lo
+hacemos con JPA, usando las etiquetas que nos proporciona:
+* @Entity
+* @Id
+* @Column
+* etc
