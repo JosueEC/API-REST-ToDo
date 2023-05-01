@@ -36,4 +36,10 @@ public class ToDoController {
         taskRepository.save(updatedTask);
         return "Task updated";
     }
+
+    @DeleteMapping (value = "/deleteTask/{id}")
+    public String deleteTask (@PathVariable Long id) {
+        taskRepository.deleteById(id);
+        return "Task deleted";
+    }
 }
