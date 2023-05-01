@@ -1,5 +1,6 @@
 package com.example.rest.Models;
 
+@Entity
 public class Task {
     private Long id;
     private String title;
